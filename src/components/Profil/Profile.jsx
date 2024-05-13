@@ -1,6 +1,5 @@
 import React from "react"
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -21,9 +20,6 @@ const Profile = () =>{
               <a href="https://www.instagram.com/bama.amamiya/">
                 <FontAwesomeIcon icon={faInstagram} size="2x"/>
               </a>
-                {/* <a>
-                <FontAwesomeIcon icon={faDiscord} size="2x"/>
-                </a> */}
                 <a href="https://github.com/bamaamamiya">
                 <FontAwesomeIcon icon={faGithub} size="2x"/>
                 </a>
@@ -33,7 +29,7 @@ const Profile = () =>{
       </div>
       
       <div className="text-center mt-20">
-      <button className="text-center bg-black text-white p-2 rounded-xl animate-bounce shadow-2xl">You life in illutions</button>
+      <button className="text-center bg-black text-white p-2 rounded-xl animate-bounce shadow-2xl border-r-2 border-b-2">You live in illusions</button>
       </div>
     </div>
 

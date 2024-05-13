@@ -30,7 +30,7 @@ function Navbar() {
         <h1 className="ml-4 text-4xl font-semibold sm:justify-center ">BAMA</h1>
         <div className="sm:hidden flex items-center">
           <button
-            className="mr-4 p-1 hover:bg-gray-950 hover:text-white rounded-xl hover:dark:bg-white dark:text-white hover:dark:text-black"
+            className="mr-4 p-1 hover:bg-gray-950 hover:text-white rounded-xl hover:dark:bg-black dark:text-white hover:dark:text-black"
             onClick={swapMode}
           >
             {darkMode ? '⛅' : '🌙'}
@@ -50,7 +50,7 @@ function Navbar() {
             </li>
             <div className={darkMode ? 'dark' : ''}>
       <button
-        className=" hover:bg-gray-950 hover:text-white hover:p-1 rounded-xl hover:dark:bg-white dark:text-white hover:dark:text-black"
+        
         onClick={swapMode}
       >
         {darkMode ? <FontAwesomeIcon icon={faCloudMoon}  /> : 
