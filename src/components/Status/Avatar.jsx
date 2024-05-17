@@ -7,13 +7,13 @@ const Avatar = () =>{
     const Level = 2
     const Point = 0
     return (
-        <div className="flex justify-center gap-4 border-b-2">
+        <div className="md:flex grid justify-center gap-4 border-b-2">
             <div>
                 <p className="text-center">Bama Amamiya</p>
                 <img src="/images/bokuanime.jpg" className="rounded-3xl w-80"/>
             </div>
             <div className="grid gap-4">
-            <div className="text-2xl grid items-center">
+            <div className="grid items-center text-sm ">
                 <h1>Name : {Name}</h1>
                 <h1>Job : {Job}</h1>
                 <h1>Tittle : {Tittle}</h1>

@@ -13,7 +13,7 @@ const Status = () =>{
             <div className="h-full">
                 <Avatar/>
                 <Mess/>
-        <h1 className="text-center font-thin italic">End</h1>
+        <h1 className="text-center font-thin italic">-End-</h1>
 
             </div>
 
