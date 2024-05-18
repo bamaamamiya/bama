@@ -1,36 +1,50 @@
 import React from "react"
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faCode,  faMaskFace,  faMasksTheater,  faUser } from "@fortawesome/free-solid-svg-icons";
+import Status from "../Status/Status";
+import Mess from "../Quo/Mess";
+import { faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons/faPlugCircleXmark";
 
 
 const Profile = () =>{
 
     return(
-        <div className="grid justify-center items-center">
-      <div className="md:flex grid text-center gap-2">
-    <div className="sm:flex justify-center  ">
+        <div>
+      <div className="md:flex grid justify-center items-center gap-2 h-full p-4">
+    <div className="flex justify-center items-center  ">
         <img src="./images/profile.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center dark:border-white dark:border-4"  />
         </div>
         <div className="flex justify-center items-center">
           <div>
           <p className="text-center text-primary ">Hello, im</p>
           <h1 className="text-center text-2xl font-bold">Bama Amamiya</h1>        
-            <div className="space-x-4 mt-2 flex justify-center">
-              <a href="https://www.instagram.com/bama.amamiya/">
-                <FontAwesomeIcon icon={faInstagram} size="2x"/>
+            <div className="space-x-4 mt-2 flex justify-center items-center">
+              <a>
+              <FontAwesomeIcon icon={faCode} />
               </a>
-                <a href="https://github.com/bamaamamiya">
+              <a>
+              <FontAwesomeIcon icon={faMasksTheater} />
+              </a>
+              {/* <a href="https://www.instagram.com/bama.amamiya/">
+                <FontAwesomeIcon icon={faInstagram} size="2x"/>
+              </a> */}
+                {/* <a href="https://github.com/bamaamamiya">
                 <FontAwesomeIcon icon={faGithub} size="2x"/>
+                </a> */}
+                <a>
+                <FontAwesomeIcon icon={faPlugCircleXmark} />
                 </a>
+                <a>
+                <FontAwesomeIcon icon={faUser} />
+                </a>
+                
           </div>
           </div>
           </div>
       </div>
       
-      <div className="text-center mt-20">
-      <button className="text-center bg-black text-white p-2 rounded-xl animate-bounce shadow-2xl border-r-2 border-b-2">You live in illusions</button>
-      </div>
+      <Status/>
+      <Mess/>
     </div>
 
     )
