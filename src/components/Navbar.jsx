@@ -25,9 +25,9 @@ function Navbar() {
   return (
     <nav className={` sm:flex sm:items-center sm:justify-between p-4 sticky top-0 z-40  ${darkMode ? 'dark' : ''}`}>
       <div className="flex justify-between items-center w-full">
-        <a className="ml-4 text-4xl font-semibold sm:justify-center ">
+        <div className="ml-4 text-4xl font-semibold sm:justify-center ">
         <Link to='/'>BAMA</Link>
-        </a>
+        </div>
       </div>
       <div className="w-full sm:w-auto flex items-center justify-center">
           <ul className="sm:flex sm:gap-4 m-3 text-2xl hidden">

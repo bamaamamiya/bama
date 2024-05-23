@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Learn from './components/Learn/Learn';
 import Player from './components/Player/Player';
 import Mind from './components/Mind/Mind';
+import Matrix from './components/Matrix/Matrix';
 
 // import './App.css'
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/learn' element={<Learn/>}></Route>
         <Route path='/player' element={<Player/>}></Route>
         <Route path='/mind' element={<Mind/>}></Route>
+        <Route path='/matrix' element={<Matrix/>}></Route>
       </Routes>
       </div>
     </Router>
