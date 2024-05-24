@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faCode,  faMaskFace,  faMasksTheater,  faUser } from "@fortawesome/free-solid-svg-icons";
+import {  faCode,   faMasksTheater,  faUser } from "@fortawesome/free-solid-svg-icons";
 import Status from "../Status/Status";
 import Mess from "../Quo/Mess";
 import { faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons/faPlugCircleXmark";
@@ -48,11 +48,11 @@ const Profile = () =>{
       <Mess/>
       </div>
       <div className="flex justify-center items-center ">
-      <div className="border-2 flex p-2 rounded-3xl">
-        <Link to="/matrix" className="text-3xl font-bold">You live in illutions</Link>
-        <span class="relative flex h-3 w-3">
-  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white/50 opacity-85"></span>
-  <span class="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
+      <div className="border-2 flex p-2 rounded-3xl text-3xl">
+        <Link to="/matrix">You live in illutions</Link>
+        <span className="relative flex h-3 w-3">
+  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white/50 opacity-85"></span>
+  <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
 </span>
       </div>
       </div>
