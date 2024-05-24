@@ -13,7 +13,7 @@ const Profile = () =>{
         <div>
       <div className="md:flex grid justify-center items-center gap-2 h-full p-4">
     <div className="flex justify-center items-center p-2 ">
-        <img src="./images/profile.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center dark:border-white dark:border-4"  />
+        <img src="./images/profile.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center border-white border-4"  />
         </div>
         <div className="flex justify-center items-center">
           <div>
