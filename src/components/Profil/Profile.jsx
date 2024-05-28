@@ -11,7 +11,7 @@ const Profile = () =>{
 
     return(
         <div>
-      <div className="md:flex grid justify-center items-center gap-2 h-full p-4">
+      <div className="md:flex grid justify-center items-center gap-2 h-screen p-4">
     <div className="flex justify-center items-center p-2 ">
         <img src="./images/profile.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center border-white border-4"  />
         </div>
@@ -26,12 +26,6 @@ const Profile = () =>{
               <a>
               <FontAwesomeIcon icon={faMasksTheater} size="1x"/>
               </a>
-              {/* <a href="https://www.instagram.com/bama.amamiya/">
-                <FontAwesomeIcon icon={faInstagram} size="2x"/>
-              </a> */}
-                {/* <a href="https://github.com/bamaamamiya">
-                <FontAwesomeIcon icon={faGithub} size="2x"/>
-                </a> */}
                 <a>
                 <FontAwesomeIcon icon={faPlugCircleXmark} size="1x"/>
                 </a>

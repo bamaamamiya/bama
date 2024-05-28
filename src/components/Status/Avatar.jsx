@@ -4,10 +4,10 @@ const Avatar = () =>{
     const Job = "Shadow"
     const Tittle = "Monarch"
     const HP = 1000
-    const Level = 2
+    const Level = 3
     const Point = 0
     return (
-        <div className="md:flex grid justify-center gap-4 border-b-2 h-full p-4">
+        <div className="md:flex grid justify-center gap-4 p-4">
             <div>
                 <p className="text-center">Bama Amamiya</p>
                 <img src="/images/bokuanime.jpg" className="rounded-3xl w-80"/>

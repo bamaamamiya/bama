@@ -7,6 +7,7 @@ import Learn from './components/Learn/Learn';
 import Player from './components/Player/Player';
 import Mind from './components/Mind/Mind';
 import Matrix from './components/Matrix/Matrix';
+import Start from './components/Start/Start';
 
 // import './App.css'
 
@@ -16,7 +17,8 @@ function App() {
     <div className='h-screen bg-black text-white '>
     <Navbar/>
       <Routes>
-        <Route path='/' element={<Profil/>}></Route>
+        <Route path='/' element={<Start/>}></Route>
+        <Route path='/home' element={<Profil/>}></Route>
         <Route path='/learn' element={<Learn/>}></Route>
         <Route path='/player' element={<Player/>}></Route>
         <Route path='/mind' element={<Mind/>}></Route>
