@@ -13,7 +13,7 @@ function Navbar() {
     <nav className="sm:flex sm:items-center sm:justify-between p-4 sticky top-0 z-40 bg-black">
       <div className="flex justify-between items-center w-full">
         <div className="ml-4 text-4xl font-semibold sm:justify-center">
-          <Link to='/home'>BAMA</Link>
+          <Link to='/'>BAMA</Link>
         </div>
         <div className="sm:hidden">
           <button onClick={toggleMenu} className="p-2">
