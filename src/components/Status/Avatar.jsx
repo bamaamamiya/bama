@@ -3,11 +3,16 @@ const Avatar = () =>{
     const Name = "Bama Amamiya";
     const Job = "Shadow"
     const Tittle = "Monarch"
-    const HP = 1000
+    const HP = "-"
     const Level = 3
-    const Point = 0
+    const Point = 2
+    const Strength = 999
+    const Agility = 200
+    const Sense = 1000
+    const Vital = 233
+    const intel = 10500
     return (
-        <div className="md:flex grid justify-center gap-4 p-4">
+        <div className="md:flex grid justify-center gap-4 p-4 w-max">
             <div>
                 <img src="/images/bokuanime.jpg" className="rounded-2xl w-80"/>
             </div>
@@ -21,13 +26,13 @@ const Avatar = () =>{
                 <br></br>
             </div>
                 <div className="border-t-2 border-b-2">
-                    <h1>STRENGTH : 239</h1>
-                    <h1>AGILITY : 160</h1>
-                    <h1>SENSE : 100</h1>
-                    <h1>VITALITY : 100</h1>
-                    <h1>INTELLIGENCE : 954</h1>
+                    <h1>STRENGTH : {Strength}</h1>
+                    <h1>AGILITY : {Agility}</h1>
+                    <h1>SENSE : {Sense}</h1>
+                    <h1>VITALITY : {Vital}</h1>
+                    <h1>INTELLIGENCE : {intel}</h1>
                 </div>
-                <h1 className="text-end font-semibold">REMAINING POINT : {Point}</h1>
+                <h1 className="text-end font-medium">REMAINING POINT : {Point}</h1>
                 <br></br>
         </div>
         </div>
