@@ -9,8 +9,7 @@ const Avatar = () =>{
     return (
         <div className="md:flex grid justify-center gap-4 p-4">
             <div>
-                <p className="text-center">Bama Amamiya</p>
-                <img src="/images/bokuanime.jpg" className="rounded-3xl w-80"/>
+                <img src="/images/bokuanime.jpg" className="rounded-2xl w-80"/>
             </div>
             <div className="grid p-4">
             <div className="grid items-center text-sm ">
