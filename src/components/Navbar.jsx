@@ -32,7 +32,7 @@ function Navbar() {
       <div className={`sm:flex sm:gap-4 m-3 text-2xl ${isMenuOpen ? 'block' : 'hidden'}`}>
         <ul className="sm:flex sm:gap-4 sm:ml-auto border-b-2 border-t-2 md:border-none">
           <li className='text-end'>
-            <Link to='/learn'>Learn</Link>
+            <Link to='/quest'>Quest</Link>
           </li>
           <li className='text-end'>
             <Link to='/mind'>Mind</Link>
