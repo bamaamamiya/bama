@@ -5,7 +5,7 @@ const Quest =() =>{
         { task: 'Push Up', status: 'INCOMPLETE', current: 0, goal: 100 },
         { task: 'Sit Up', status: 'INCOMPLETE', current: 0, goal: 100 },
         { task: 'Squats', status: 'INCOMPLETE', current: 0, goal: 100 },
-        { task: 'Running', status: 'INCOMPLETE', current: 0, goal: 3 },
+        { task: 'Running', status: 'INCOMPLETE', current: 0, goal: 3  , text : ' M '},
         ]);
 
         const handleChange = (index) => {
@@ -31,12 +31,12 @@ const Quest =() =>{
         <div className="grid justify-center items-center space-y-2">
             <h1>Daily Quest - Getting Ready To Become Powerful</h1>
 
-            <h1 className="text-3xl text-center">GOAL</h1>
+            <h1 className="text-3xl text-center">GOAL!</h1>
             <div className="grid justify-center">
             {tasks.map((task, index) => (
             <div className="flex gap-2 text-2xl" key={index}>
                 <button onClick={() => handleChange(index)}>[{task.status}]</button>
-                <h1>{task.task} [ {task.current} / {task.goal} ]</h1>
+                <h1>{task.task} [ {task.current} / {task.goal} {task.text}]</h1>
                 </div>
             ))}
         </div>
