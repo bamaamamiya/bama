@@ -35,7 +35,7 @@ function Navbar() {
             <Link to='/quest'>Quest</Link>
           </li>
           <li className='text-end'>
-            <Link to='/mind'>Mind</Link>
+            <Link to='/book'>Book</Link>
           </li>
           <li className='text-end'>
             <Link to='/player'>Player</Link>
