@@ -52,7 +52,7 @@ const Book =() =>{
         <div className="text-center">
             <button
                 onClick={() => setFilter(filter === 'ALL' ? 'COMPLETE' : 'ALL')}
-                className="bg-primary p-2 rounded-md font-bold"
+                className="bg-primary p-2 rounded-md font-bold border-2"
             >
                 {filter === 'ALL' ? 'Show Completed' : 'Show All'}
             </button>

@@ -2,10 +2,10 @@ import { useState } from "react"
 
 const Quest =() =>{
     const [tasks, setTasks] = useState([
-        { task: 'Push Up', status: 'INCOMPLETE', current: 0, goal: 100 },
-        { task: 'Sit Up', status: 'INCOMPLETE', current: 0, goal: 100 },
-        { task: 'Squats', status: 'INCOMPLETE', current: 0, goal: 100 },
-        { task: 'Running', status: 'INCOMPLETE', current: 0, goal: 3  , text : ' M '},
+        { task: 'Push Up', status: 'INCOMPLETE', current: 0, goal: 50 },
+        { task: 'Sit Up', status: 'INCOMPLETE', current: 0, goal: 50 },
+        { task: 'Squats', status: 'INCOMPLETE', current: 0, goal: 50 },
+        // { task: 'Running', status: 'INCOMPLETE', current: 0, goal: 3  , text : ' M '},
         ]);
 
         const handleChange = (index) => {
@@ -43,6 +43,9 @@ const Quest =() =>{
         </div>
         <div className=" flex justify-center items-center">
         <h1 className="text-2xl text-center"> <span className="text-red-800">CAUTION!</span> - IF THE DAILY QUEST REMAINS INCOMPLETE,PENALTIES WILL BE GIVEN ACCORDINGLY</h1>
+        </div>
+        <div className="flex justify-center">
+        <img src="/images/clock.png" className="w-40"/>
         </div>
         </div>
     </div>
