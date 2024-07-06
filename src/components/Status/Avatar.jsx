@@ -4,7 +4,7 @@ const Avatar = () =>{
     const Job = "Shadow"
     const Tittle = "Monarch"
     const HP = "-"
-    const Level = 3
+    const Level = 4
     const Point = 2
     const Strength = 999
     const Agility = 200

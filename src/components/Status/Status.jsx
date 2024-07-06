@@ -1,7 +1,7 @@
 import Avatar from "./Avatar"
 const Status = () =>{
     return (
-        <div className="bg-black space-y-4 p-2">
+        <div className="bg-black space-y-4 p-2 ">
             <div className="border-white border-t-2 border-b-2 ">
             <div className="flex justify-end gap-2 ">
             <h1 className="text-end text-5xl">_</h1>

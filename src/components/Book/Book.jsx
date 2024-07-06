@@ -21,7 +21,7 @@ const Book =() =>{
         {
             imgBook: "https://m.media-amazon.com/images/I/91HSzl9bxoL._SY342_.jpg",
             title: "Atomic Habits",
-            status: 'CURRENTLY READING',
+            status: 'COMPLETE',
             author: 'James Clear'
         },
         {
@@ -42,6 +42,12 @@ const Book =() =>{
             status: 'COMPLETE',
             author: 'Aiden Nolan'
         },
+        {
+            imgBook: "https://m.media-amazon.com/images/I/61+Cgl5Hu2L._AC_UF1000,1000_QL80_.jpg",
+            title: "The Millionaire Master Plan",
+            status: 'CURRENTLY READING',
+            author: 'Roger J. Hamilton'
+        },
     ];
 
     const filteredBooks = filter === 'ALL' ? BookList : BookList.filter(book => book.status === 'COMPLETE');
@@ -59,9 +65,9 @@ const Book =() =>{
         </div>
         <div className=" grid md:grid-cols-3 gap-4 justify-center h-screen w-max items-center ">
             {filteredBooks.map((book, index) => (
-                <div key={index} className="m-2 text-center border-2 rounded-xl">
-                    <div className="flex justify-center p-2 w-[200px] h-[200px]">
-                        <img src={book.imgBook} alt={book.title} className="object-cover" />
+                <div key={index} className="m-2  text-center border-2 rounded-xl w-96 h-auto">
+                    <div className="flex justify-center p-2 w-96">
+                        <img src={book.imgBook} alt={book.title} className="object-cover w-96" />
                     </div>
                     <h2 className="text-lg font-bold">{book.title}</h2>
                     <h3 className="text-sm">{book.author}</h3>
