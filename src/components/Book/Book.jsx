@@ -54,8 +54,9 @@ const Book =() =>{
 
 
     return(
-        <div className="bg-black text-white h-full justify-center items-center m-4 grid">
-        <div className="text-center">
+        <div className='h-max'>
+            <div className='grid justify-center items-center'>
+        <div className="text-center ">
             <button
                 onClick={() => setFilter(filter === 'ALL' ? 'COMPLETE' : 'ALL')}
                 className="bg-primary p-2 rounded-md font-bold border-2"
@@ -63,17 +64,16 @@ const Book =() =>{
                 {filter === 'ALL' ? 'Show Completed' : 'Show All'}
             </button>
         </div>
-        <div className=" grid md:grid-cols-3 gap-4 justify-center h-screen w-max items-center ">
+        <div className='grid justify-center text-center gap-2 p-2 md:flex '>
             {filteredBooks.map((book, index) => (
-                <div key={index} className="m-2  text-center border-2 rounded-xl w-96 h-auto">
-                    <div className="flex justify-center p-2 w-96">
-                        <img src={book.imgBook} alt={book.title} className="object-cover w-96" />
-                    </div>
+                <div key={index}  className='grid justify-center border-2 p-2 rounded-lg'>
+                        <img src={book.imgBook} alt={book.title} className='w-[200px]'/>
                     <h2 className="text-lg font-bold">{book.title}</h2>
                     <h3 className="text-sm">{book.author}</h3>
                     <p className="font-extrabold text-xl">{book.status}</p>
-                </div>
+                    </div>
             ))}
+        </div>
         </div>
     </div>
     )
