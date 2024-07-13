@@ -64,7 +64,7 @@ const Book =() =>{
                 {filter === 'ALL' ? 'Show Completed' : 'Show All'}
             </button>
         </div>
-        <div className='grid justify-center text-center gap-2 p-2 md:grid md:grid-cols-2 lg:grid-cols-3 '>
+        <div className='grid justify-center text-center gap-2 p-2 md:grid md:grid-cols-2 lg:grid-cols-3 grid-cols-2'>
             {filteredBooks.map((book, index) => (
                 <div key={index}  className='grid justify-center border-2 p-2 rounded-lg'>
                         <img src={book.imgBook} alt={book.title} className='w-[200px] h-[300px] rounded-xl'/>
