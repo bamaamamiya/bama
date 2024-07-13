@@ -19,7 +19,7 @@ const Quest =() =>{
     };
     
     return(
-        <div className="bg-black p-2">
+        <div className="bg-black p-2 m-4">
         <div className="border-white border-2 space-y-6 h-screen rounded-xl p-2">
         <div className="flex justify-end gap-2 ">
         <h1 className="text-end text-5xl">_</h1>

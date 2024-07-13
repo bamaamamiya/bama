@@ -59,15 +59,15 @@ const Book =() =>{
         <div className="text-center ">
             <button
                 onClick={() => setFilter(filter === 'ALL' ? 'COMPLETE' : 'ALL')}
-                className="bg-primary p-2 rounded-md font-bold border-2"
+                className="bg-primary p-2 rounded-md font-bold border-2 border-r-4 border-b-4"
             >
                 {filter === 'ALL' ? 'Show Completed' : 'Show All'}
             </button>
         </div>
-        <div className='grid justify-center text-center gap-2 p-2 md:flex '>
+        <div className='grid justify-center text-center gap-2 p-2 md:grid md:grid-cols-2 lg:grid-cols-3 '>
             {filteredBooks.map((book, index) => (
                 <div key={index}  className='grid justify-center border-2 p-2 rounded-lg'>
-                        <img src={book.imgBook} alt={book.title} className='w-[200px]'/>
+                        <img src={book.imgBook} alt={book.title} className='w-[200px] h-[300px] rounded-xl'/>
                     <h2 className="text-lg font-bold">{book.title}</h2>
                     <h3 className="text-sm">{book.author}</h3>
                     <p className="font-extrabold text-xl">{book.status}</p>
