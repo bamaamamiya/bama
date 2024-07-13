@@ -20,23 +20,23 @@ const Quest =() =>{
     
     return(
         <div className="bg-black p-2 m-4">
-        <div className="border-white border-2 space-y-6 h-screen rounded-xl p-2">
+        <div className="border-white border-2 h-screen rounded-xl p-2 grid items-center">
         <div className="flex justify-end gap-2 ">
         <h1 className="text-end text-5xl">_</h1>
         <h1 className="text-end text-5xl">x</h1>
         </div>
         <div className="flex justify-center items-center ">
-            <h1 className="text-5xl font-bold ">QUEST DIRECTIONS</h1>
+            <h1 className="text-5xl font-bold text-center">QUEST DIRECTIONS</h1>
         </div>
         <div className="grid justify-center items-center space-y-2">
-            <h1>Daily Quest - Getting Ready To Become Powerful</h1>
+            <h1 className="text-center">Daily Quest - Getting Ready To Become Powerful</h1>
 
             <h1 className="text-3xl text-center">GOAL!</h1>
             <div className="grid justify-center">
             {tasks.map((task, index) => (
             <div className="flex gap-2 text-2xl" key={index}>
                 <button onClick={() => handleChange(index)}>[{task.status}]</button>
-                <h1>{task.task} [ {task.current} / {task.goal} {task.text}]</h1>
+                <h1 className="text-lg md:text-2xl">{task.task} [ {task.current} / {task.goal} {task.text}]</h1>
                 </div>
             ))}
         </div>
