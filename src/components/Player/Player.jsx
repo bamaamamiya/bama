@@ -3,9 +3,9 @@ import Status from "../Status/Status"
 
 const Player =() =>{
     return(
-        <div className="grid items-center h-screen">
+        <div>
             <Status/>
-            {/* <Skill/> */}
+            <Skill/>
         </div>
     )
 }
