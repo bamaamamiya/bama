@@ -5,6 +5,7 @@ import Status from "../Status/Status";
 import Mess from "../Quo/Mess";
 import { faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons/faPlugCircleXmark";
 import { Link } from "react-router-dom";
+import Footer from "../Footer/Footer";
 
 
 const Profile = () =>{
@@ -40,15 +41,7 @@ const Profile = () =>{
       <div>
       <Status/>
       <Mess/>
-      </div>
-      <div className="flex justify-center items-center ">
-      <div className="border-2 flex p-2 rounded-3xl text-3xl">
-        <Link to="/matrix">You live in illutions</Link>
-        <span className="relative flex h-3 w-3">
-  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white/50 opacity-85"></span>
-  <span className="relative inline-flex rounded-full h-3 w-3 bg-white"></span>
-</span>
-      </div>
+      <Footer/>
       </div>
     </div>
 
