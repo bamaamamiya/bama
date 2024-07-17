@@ -6,11 +6,11 @@ const Avatar = () =>{
     const HP = "-"
     const Level = 4
     const Point = 2
-    const Strength = 999
-    const Agility = 200
-    const Sense = 1000
-    const Vital = 233
-    const intel = 10500
+    const Strength = 9199
+    const Agility = 5200
+    const Sense = 10000
+    const Vital = 24833
+    const intel = 21000
     return (
         <div className="md:flex grid justify-center gap-4 p-4 w-max">
             <div>

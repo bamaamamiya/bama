@@ -46,7 +46,7 @@ const Skill =() =>{
             <h1 className="text-5xl font-bold text-center ">SKILL</h1>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 m-4 items-center">
                 {ListSkill.map((skill,index)=>(
-                <div key={index} className="flex space-x-2 justify-center items-center border-2 p-2 rounded-xl w-full">
+                <div key={index} className="flex space-x-2 justify-center items-center border-2 p-2 rounded-xl ">
                     <img src={skill.img} alt={skill.name} className="h-[100px] w-20"/>
                 <p className="text-center w-full capitalize">{skill.name}</p>
                 </div>
