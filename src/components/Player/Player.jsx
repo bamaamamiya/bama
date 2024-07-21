@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer"
 import Skill from "../Skill/Skill"
 import Status from "../Status/Status"
 
@@ -6,6 +7,7 @@ const Player =() =>{
         <div>
             <Status/>
             <Skill/>
+            <Footer/>
         </div>
     )
 }

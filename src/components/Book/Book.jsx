@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Footer from '../Footer/Footer';
 
 
 const Book =() =>{
@@ -54,6 +55,12 @@ const Book =() =>{
             status: 'COMPLETE',
             author: 'Peter Hollins'
         },
+        {
+            imgBook: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627034891i/58612786.jpg",
+            title: "$100M Offers",
+            status: 'COMPLETE',
+            author: 'Alex Hormozi'
+        },
     ];
 
     const filteredBooks = filter === 'ALL' ? BookList : BookList.filter(book => book.status === 'COMPLETE');
@@ -88,6 +95,7 @@ const Book =() =>{
             ))}
         </div>
         </div>
+        <Footer/>
     </div>
     )
 }
