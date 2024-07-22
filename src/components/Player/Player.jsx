@@ -4,7 +4,7 @@ import Status from "../Status/Status"
 
 const Player =() =>{
     return(
-        <div>
+        <div className="space-y-6">
             <Status/>
             <Skill/>
             <Footer/>
