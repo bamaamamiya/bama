@@ -1,10 +1,9 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faCode,   faMasksTheater,  faUser } from "@fortawesome/free-solid-svg-icons";
+import {  faCode,   faMasksTheater,  faUser ,faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import Status from "../Status/Status";
 import Mess from "../Quo/Mess";
-import { faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons/faPlugCircleXmark";
-import { Link } from "react-router-dom";
+// import { faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons/faPlugCircleXmark";
 import Footer from "../Footer/Footer";
 
 

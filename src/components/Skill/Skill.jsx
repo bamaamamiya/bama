@@ -31,7 +31,7 @@ const Skill =() =>{
         },
         {
             name:'understand death',
-            img:'https://i.pinimg.com/564x/f3/31/93/f33193f8825312152fda0598652c81b7.jpg'
+            img:'https://i.pinimg.com/736x/45/c1/c3/45c1c34642c80e7208b7ae55d390cbd6.jpg'
         },
     ]
     
@@ -47,7 +47,7 @@ const Skill =() =>{
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 m-4 items-center">
                 {ListSkill.map((skill,index)=>(
                 <div key={index} className="flex space-x-2 justify-center items-center border-2 p-2 rounded-xl ">
-                    <img src={skill.img} alt={skill.name} className="h-[100px] w-20"/>
+                    <img src={skill.img} alt={skill.name} className="h-[100px] w-[70px]"/>
                 <p className="text-center w-full capitalize">{skill.name}</p>
                 </div>
                 ))}
