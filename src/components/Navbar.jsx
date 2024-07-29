@@ -16,7 +16,7 @@ function Navbar() {
           <Link to='/'>BAMA</Link>
         </div>
         <div className="sm:hidden">
-          <button onClick={toggleMenu} className="p-2"  aria-label="Open menu">
+          <button onClick={toggleMenu} className="p-2" aria-label="Open menu">
             {isMenuOpen ? (
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>

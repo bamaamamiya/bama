@@ -10,18 +10,18 @@ import Footer from './components/Footer/Footer';
 // import './App.css'
 
 function App() {
-  return(
+  return (
     <Router>
-    <div className='h-screen bg-black text-white '>
-    <Navbar/>
-      <Routes>
-        <Route path='/' element={<Start/>}></Route>
-        <Route path='/home' element={<Profil/>}></Route>
-        <Route path='/quest' element={<Quest/>}></Route>
-        <Route path='/player' element={<Player/>}></Route>
-        <Route path='/book' element={<Book/>}></Route>
-        <Route path='/footer' element={<Footer/>}></Route>
-      </Routes>
+      <div className='h-screen bg-black text-white '>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Start />}></Route>
+          <Route path='/home' element={<Profil />}></Route>
+          <Route path='/quest' element={<Quest />}></Route>
+          <Route path='/player' element={<Player />}></Route>
+          <Route path='/book' element={<Book />}></Route>
+          <Route path='/footer' element={<Footer />}></Route>
+        </Routes>
       </div>
     </Router>
   )
