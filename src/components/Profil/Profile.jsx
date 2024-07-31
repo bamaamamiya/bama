@@ -8,10 +8,8 @@ import Footer from "../Footer/Footer";
 
 const Profile = () => {
 
-  const bgImage = 'https://w0.peakpx.com/wallpaper/495/212/HD-wallpaper-japanese-wave-anime-japan-lofi-ocean-phone-screen-sea-vapor-water-web.jpg'
-
   return (
-    <div className="bg-cover bg-center bg-no-repeat" style={{ backgroundImage: `url(${bgImage})` }}>
+    <div>
       <div className="md:flex grid justify-center items-center gap-2 h-screen p-4">
         <div className="flex justify-center items-center p-2 ">
           <img src="./images/profile.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center border-white border-4" />
