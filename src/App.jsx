@@ -1,30 +1,45 @@
+import React from 'react';
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import Profil from './components/Profil/Profile'
-import Navbar from './components/Navbar'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Profil from './components/Profil/Profile';
+import Navbar from './components/Navbar';
 import Player from './components/Player/Player';
 import Start from './components/Start/Start';
 import Quest from './components/Quest/Quest';
 import Book from './components/Book/Book';
 import Footer from './components/Footer/Footer';
-// import './App.css'
 
 function App() {
+  React.useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then((registration) => {
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          })
+          .catch((error) => {
+            console.log('ServiceWorker registration failed: ', error);
+          });
+      });
+    }
+  }, []);
+
   return (
-    <Router>
-      <div className='h-screen bg-black text-white '>
-        <Navbar />
+    <div className="h-screen bg-black text-white">
+      <Router>
+      <Navbar />
         <Routes>
-          <Route path='/' element={<Start />}></Route>
-          <Route path='/home' element={<Profil />}></Route>
-          <Route path='/quest' element={<Quest />}></Route>
-          <Route path='/player' element={<Player />}></Route>
-          <Route path='/book' element={<Book />}></Route>
-          <Route path='/footer' element={<Footer />}></Route>
+          <Route path="/" element={<Start />} />
+          <Route path="/profil" element={<Profil />} />
+          <Route path="/quest" element={<Quest />} />
+          <Route path="/player" element={<Player />} />
+          <Route path="/book" element={<Book />} />
+          <Route path="/footer" element={<Footer />} />
         </Routes>
-      </div>
-    </Router>
-  )
+      </Router>
+    </div>
+  );
 }
 
-export default App
+export default App;
