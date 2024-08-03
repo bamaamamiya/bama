@@ -8,55 +8,55 @@ const Book =() =>{
 
     const BookList = [
         {
-            imgBook: "https://miro.medium.com/v2/resize:fit:1200/0*tjjVWoTGZzfhOLTO.jpg",
+            imgBook: "/images/book/48.jpg",
             title: "The 48 Laws of Power",
             status: 'CURRENTLY READING',
             author: 'Robert Greene'
         },
         {
-            imgBook: "https://m.media-amazon.com/images/I/71fEmwof+BL._AC_UF1000,1000_QL80_.jpg",
+            imgBook: "/images/book/nature.jpg",
             title: "The Laws of Human Nature",
             status: 'COMPLETE',
             author: 'Robert Greene'
         },
         {
-            imgBook: "https://m.media-amazon.com/images/I/91HSzl9bxoL._SY342_.jpg",
+            imgBook: "/images/book/atomic.jpg",
             title: "Atomic Habits",
             status: 'COMPLETE',
             author: 'James Clear'
         },
         {
-            imgBook: "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/74e01257-2c38-4db6-bd38-20450fd93234/81BE7eeKzAL._SL1500_/w=828,quality=90,fit=scale-down",
+            imgBook: "/images/book/richdad.jpg",
             title: "Rich Dad Poor Dad",
             status: 'COMPLETE',
             author: 'Robert Kiyosaki and Sharon Lechter'
         },
         {
-            imgBook: "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5da19b6c-4d2b-4db7-8d8f-090c8ee0b1ae/71aG0m9XRcL._SL1500_/w=828,quality=90,fit=scale-down",
+            imgBook: "/images/book/morgan.jpg",
             title: "Psychology of Money",
             status: 'COMPLETE',
             author: 'Morgan Housel'
         },
         {
-            imgBook: "https://m.media-amazon.com/images/I/41EWwZqn-LL.jpg",
+            imgBook: "/images/book/timeismoney.jpg",
             title: "Time Is Money",
             status: 'COMPLETE',
             author: 'Aiden Nolan'
         },
         {
-            imgBook: "https://m.media-amazon.com/images/I/61+Cgl5Hu2L._AC_UF1000,1000_QL80_.jpg",
+            imgBook: "/images/book/plan.jpg",
             title: "The Millionaire Master Plan",
             status: 'CURRENTLY READING',
             author: 'Roger J. Hamilton'
         },
         {
-            imgBook: "https://images.tokopedia.net/img/cache/700/hDjmkQ/2023/11/20/8744a5ca-e873-4bea-a242-d2500f0d1454.jpg",
+            imgBook: "/images/book/learn.jpg",
             title: "The Science of Self-Learning",
             status: 'COMPLETE',
             author: 'Peter Hollins'
         },
         {
-            imgBook: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1627034891i/58612786.jpg",
+            imgBook: "/images/book/offer.jpg",
             title: "$100M Offers",
             status: 'COMPLETE',
             author: 'Alex Hormozi'
