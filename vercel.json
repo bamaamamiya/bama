@@ -13,6 +13,10 @@
             "destination": "/index.html"
         },
         {
+            "source": "/profil",
+            "destination": "/index.html"
+        },
+        {
             "source": "/:path*",
             "destination": "/index.html"
         }
