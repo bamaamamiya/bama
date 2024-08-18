@@ -1,6 +1,6 @@
 {
-  "name": "System Bama",
-  "short_name": "System Bama",
+  "name": "System",
+  "short_name": "System",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
