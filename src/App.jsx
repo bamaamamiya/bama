@@ -1,8 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+// first page
 import Start from './components/Start/Start';
 import Profil from './components/MainContent/Profile';
+
 // navbar
 import Navbar from './components/Navbar/Navbar';
 import Player from './components/Navbar/List/Player/Player';
@@ -14,6 +16,9 @@ import Footer from './components/Footer/Footer';
 import Achievements from './components/Navbar/List/Achievements/Achievements';
 import StoryMode from './components/Navbar/List/Story Mode/StoryMode';
 import Inventory from './components/Navbar/List/Inventory/Inventory';
+
+// music
+import MusicPlayer from './components/MusicPlayer'
 
 
 function App() {
@@ -48,6 +53,9 @@ function App() {
           <Route path="/book" element={<Book />} />
           <Route path="/footer" element={<Footer />} />
         </Routes>
+        <div>
+          <MusicPlayer/>
+        </div>
       </Router>
     </div>
   );

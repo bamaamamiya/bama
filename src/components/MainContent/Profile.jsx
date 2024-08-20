@@ -5,8 +5,6 @@ import Status from "./Status/Status";
 import Mess from "./Quo/Mess";
 import Footer from "../Footer/Footer";
 
-import MusicPlayer from "../MusicPlayer";
-
 const Profile = () => {
 
   return (
@@ -41,9 +39,6 @@ const Profile = () => {
         <Status />
         <Mess />
         <Footer />
-      </div>
-      <div>
-        <MusicPlayer/>
       </div>
     </div>
 
