@@ -47,7 +47,7 @@ function App() {
           <Route path="/" element={<StoryMode />} />
           <Route path="/" element={<Inventory />} />
           {/* end */}
-          <Route path="/profil" element={<Profil />} />
+          <Route path="/home" element={<Profil />} />
           <Route path="/quest" element={<Quest />} />
           <Route path="/player" element={<Player />} />
           <Route path="/book" element={<Book />} />
