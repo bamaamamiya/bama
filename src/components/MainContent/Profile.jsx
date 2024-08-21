@@ -5,6 +5,7 @@ import Status from "./Status/Status";
 import Mess from "./Quo/Mess";
 import Footer from "../Footer/Footer";
 
+
 const Profile = () => {
 
   return (
@@ -35,6 +36,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
+
       <div>
         <Status />
         <Mess />
