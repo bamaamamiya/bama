@@ -22,20 +22,7 @@ import MusicPlayer from './components/MusicPlayer'
 
 
 function App() {
-  React.useEffect(() => {
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/service-worker.js')
-          .then((registration) => {
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          })
-          .catch((error) => {
-            console.log('ServiceWorker registration failed: ', error);
-          });
-      });
-    }
-  }, []);
-
+  
   return (
     <div className="h-screen bg-black text-white">
       <Router>
@@ -45,7 +32,7 @@ function App() {
           {/* elemnt bru */}
           <Route path="/" element={<Achievements />} />
           <Route path="/" element={<StoryMode />} />
-          <Route path="/" element={<Inventory />} />
+          <Route path="/inventory" element={<Inventory />} />
           {/* end */}
           <Route path="/home" element={<Profil />} />
           <Route path="/quest" element={<Quest />} />

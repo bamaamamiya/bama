@@ -7,7 +7,7 @@ const Status = () =>{
                         <h1 className="text-end text-5xl">x</h1>
                     </div >
                     <div>
-                    <h1 className="text-5xl font-bold text-center">STATUS</h1>
+                    <h1 className="text-7xl font-bold text-center">STATUS</h1>
                 <Avatar/>
                     </div>
                 </div>

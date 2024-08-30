@@ -33,7 +33,7 @@ function Navbar() {
         </div>
       </div>
       <div className={`sm:flex sm:gap-4 m-3 text-2xl ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <ul className="sm:flex sm:gap-4 sm:ml-auto border-b-2 border-t-2 md:border-none">
+        <ul className="sm:flex sm:gap-4 sm:ml-auto border-b-2 border-t-2 md:border-none text-2xl">
           <li className='text-end'>
             <Link to='/home'>Home</Link>
           </li>
@@ -44,7 +44,7 @@ function Navbar() {
             <Link to='/'>Achievements</Link>
           </li>
           <li className='text-end'>
-            <Link to='/'>Inventory</Link>
+            <Link to='/inventory'>Inventory</Link>
           </li>
           <li className='text-end'>
             <Link to='/'>StoryMode</Link>

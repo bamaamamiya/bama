@@ -31,7 +31,6 @@ const Profile = () => {
               <a>
                 <FontAwesomeIcon icon={faUser} size="1x" />
               </a>
-
             </div>
           </div>
         </div>

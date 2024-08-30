@@ -26,10 +26,6 @@ const Skill = () => {
             img: 'https://i.pinimg.com/564x/ef/ba/c5/efbac5024d58c9762dee57581e60475f.jpg'
         },
         {
-            name: 'caffeine',
-            img: 'https://i.pinimg.com/564x/e4/ac/8a/e4ac8a4f3b70d9ac312140e31849df7d.jpg'
-        },
-        {
             name: 'understand death',
             img: 'https://i.pinimg.com/736x/45/c1/c3/45c1c34642c80e7208b7ae55d390cbd6.jpg'
         },
@@ -37,7 +33,7 @@ const Skill = () => {
 
     return (
         <div className="bg-black text-white grid justify-center items-center ">
-            <h1 className="text-5xl font-bold text-center ">SKILL</h1>
+            <h1 className="text-7xl font-bold text-center ">SKILL</h1>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 m-4 items-center">
                 {ListSkill.map((skill, index) => (
                     <div key={index} className="flex space-x-2 justify-center items-center border-2 p-2 rounded-xl ">
