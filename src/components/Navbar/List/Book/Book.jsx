@@ -72,7 +72,7 @@ const Book = () => {
         {
             imgBook: "/images/book/fastline.jpg",
             title: "The Millionaire Fastlane",
-            status: 'CURRENTLY READING',
+            status: 'COMPLETE',
             category: 'Business',
             author: 'M. J. DeMarco'
         },
