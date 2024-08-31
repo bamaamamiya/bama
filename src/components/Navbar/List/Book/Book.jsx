@@ -63,6 +63,13 @@ const Book = () => {
             author: 'Peter Hollins'
         },
         {
+            imgBook: "/images/book/meditation.jpg",
+            title: "Meditations",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'Marcus Aurelius'
+        },
+        {
             imgBook: "/images/book/offer.jpg",
             title: "$100M Offers",
             status: 'COMPLETE',
@@ -97,7 +104,7 @@ const Book = () => {
         <div className='h-max'>
             <div className='grid justify-center items-center'>
                 {/* Dropdown Filters */}
-                <div className="text-center space-y-2 space-x-2 text-black">
+                <div className="text-center space-y-2 space-x-2 ">
                     <select
                         value={filter}
                         onChange={(e) => setFilter(e.target.value)}
