@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Footer from "../../../Footer/Footer";
 
 const Quest =() =>{
     const [tasks, setTasks] = useState([
@@ -48,6 +49,8 @@ const Quest =() =>{
         <img src="/images/clock.png" className="w-40"/>
         </div>
         </div>
+        <br/>
+        <Footer/>
     </div>
     )
 }

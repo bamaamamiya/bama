@@ -1,22 +1,22 @@
 
 import React, { useState } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfinity } from "@fortawesome/free-solid-svg-icons";
 
 const Avatar = () => {
     const Name = "Bama Amamiya";
     const Job = "Shadow"
     const Tittle = "Monarch"
     const HP = "-"
-    const Level = 4
-    const Point = 2
+    const Point = 5
     const Strength = 9199
     const Agility = 5200
     const Sense = 10000
     const Vital = 24833
-    const intel = 21000
+    const intel = 928010
 
     const [level, setLevel] = useState(4);
-    const [xp, setXp] = useState(400); // XP saat ini
+    const [xp, setXp] = useState(800); // XP saat ini
     const xpNeeded = 1000; // XP yang dibutuhkan untuk level up berikutnya
 
     // Hitung persentase progress XP
@@ -34,7 +34,7 @@ const Avatar = () => {
                     <h1>Job : {Job}</h1>
                     <h1>Tittle : {Tittle}</h1>
                     <h1>HP : {HP}</h1>
-                    <h1>Level : {level}</h1>
+                    <h1 className='text-xl'> <span className='text-2xl'>Level : {level} /</span>  <FontAwesomeIcon icon={faInfinity} /></h1>
 
                     <p className="text-sm text-gray-500 mb-4">XP: {xp} / {xpNeeded}</p>
                     {/* Progress Bar */}
