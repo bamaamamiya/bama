@@ -2,6 +2,7 @@ import Footer from '../../../Footer/Footer';
 import Skill from "./List/Skill/Skill"
 import Status from "../../../MainContent/Status/Status"
 import About from './List/About/About';
+import NetWorth from './List/Net/Networth';
 
 const Player =() =>{
     return(
@@ -9,6 +10,7 @@ const Player =() =>{
             <Status/>
             <Skill/>
             <About/>
+            <NetWorth/>
             <Footer/>
         </div>
     )

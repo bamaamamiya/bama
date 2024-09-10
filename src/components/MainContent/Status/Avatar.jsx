@@ -8,7 +8,7 @@ const Avatar = () => {
     const Job = "Shadow"
     const Tittle = "Monarch"
     const HP = "-"
-    const Point = 5
+    const Point = 2
     const Strength = 9199
     const Agility = 5200
     const Sense = 10000
@@ -16,7 +16,7 @@ const Avatar = () => {
     const intel = 928010
 
     const [level, setLevel] = useState(4);
-    const [xp, setXp] = useState(800); // XP saat ini
+    const [xp, setXp] = useState(960); // XP saat ini
     const xpNeeded = 1000; // XP yang dibutuhkan untuk level up berikutnya
 
     // Hitung persentase progress XP
