@@ -83,6 +83,13 @@ const Book = () => {
             category: 'Business',
             author: 'M. J. DeMarco'
         },
+        {
+            imgBook: "/images/book/dotcom.jpg",
+            title: "Dotcom Secrets",
+            status: 'CURRENTLY READING',
+            category: 'Business',
+            author: 'Russell Brunson'
+        },
     ];
 
     const filteredBooks = BookList.filter(book => {
@@ -97,6 +104,7 @@ const Book = () => {
         }
     });
 
+    const allBooks = filteredBooks.length
     const completedBooks = BookList.filter(book => book.status === 'COMPLETE').length;
     const currentlyBooks = BookList.filter(book => book.status === 'CURRENTLY READING').length;
 
@@ -128,6 +136,7 @@ const Book = () => {
                     </select>
 
                     <div className='flex justify-center items-center gap-2'>
+                        <p className='text-xl'>Total Books: {allBooks} </p>
                         <p className='text-xl'>Completed Books: {completedBooks} </p>
                         <p className='text-xl'>Currently Reading: {currentlyBooks} </p>
                     </div>
