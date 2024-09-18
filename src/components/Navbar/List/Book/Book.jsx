@@ -65,10 +65,11 @@ const Book = () => {
         {
             imgBook: "/images/book/meditation.jpg",
             title: "Meditations",
-            status: 'CURRENTLY READING',
+            status: 'COMPLETE',
             category: 'Education',
             author: 'Marcus Aurelius'
         },
+        
         {
             imgBook: "/images/book/offer.jpg",
             title: "$100M Offers",
@@ -86,7 +87,7 @@ const Book = () => {
         {
             imgBook: "/images/book/dotcom.jpg",
             title: "Dotcom Secrets",
-            status: 'CURRENTLY READING',
+            status: 'COMPLETE',
             category: 'Business',
             author: 'Russell Brunson'
         },
