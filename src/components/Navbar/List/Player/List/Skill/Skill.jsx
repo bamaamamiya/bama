@@ -25,10 +25,6 @@ const Skill = () => {
             name: 'Detective',
             img: 'https://i.pinimg.com/564x/ef/ba/c5/efbac5024d58c9762dee57581e60475f.jpg'
         },
-        {
-            name: 'understand death',
-            img: 'https://i.pinimg.com/736x/45/c1/c3/45c1c34642c80e7208b7ae55d390cbd6.jpg'
-        },
     ]
 
     return (

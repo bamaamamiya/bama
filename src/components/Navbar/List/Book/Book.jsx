@@ -91,6 +91,13 @@ const Book = () => {
             category: 'Business',
             author: 'Russell Brunson'
         },
+        {
+            imgBook: "/images/book/lordofmoney.jpg",
+            title: "The Lords of Easy Money",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'Christopher Leonard'
+        },
     ];
 
     const filteredBooks = BookList.filter(book => {
@@ -136,10 +143,10 @@ const Book = () => {
                         <option value="Education">Education</option>
                     </select>
 
-                    <div className='flex justify-center items-center gap-2'>
-                        <p className='text-xl'>Total Books: {allBooks} </p>
-                        <p className='text-xl'>Completed Books: {completedBooks} </p>
-                        <p className='text-xl'>Currently Reading: {currentlyBooks} </p>
+                    <div className='flex justify-center items-center gap-4'>
+                        <p className='text-xl text-center'>Total Books: {allBooks} </p>
+                        <p className='text-xl text-center'>Completed Books: {completedBooks} </p>
+                        <p className='text-xl text-center'>Currently Reading: {currentlyBooks} </p>
                     </div>
                 </div>
                 {/* Dropdown Filters */}
