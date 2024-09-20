@@ -153,10 +153,15 @@ const Book = () => {
                 <div className='grid justify-center text-center gap-2 m-4 md:grid md:grid-cols-2 lg:grid-cols-3 grid-cols-2'>
                     {filteredBooks.map((book, index) => (
                         <div key={index} className='grid justify-center border-2 p-2 rounded-lg'>
-                            <img src={book.imgBook} alt={book.title} className='md:h-[320px] w-full rounded-lg' />
-                            <h2 className="text-lg font-bold">{book.title}</h2>
+                            <div className='flex justify-center items-center'>
+                            <img src={book.imgBook} alt={book.title} className='sm:h-96 w-full rounded-lg' />
+                            </div>
+
+                            <div className='grid justify-center items-center'>
+                            <h2 className="text-base sm:text-lg font-bold">{book.title}</h2>
                             <h3 className="text-sm">{book.author}</h3>
                             <p className="font-extrabold text-xl">{book.status}</p>
+                            </div>
                         </div>
                     ))}
                 </div>
