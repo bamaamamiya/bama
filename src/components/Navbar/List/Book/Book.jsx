@@ -94,7 +94,7 @@ const Book = () => {
         {
             imgBook: "/images/book/lordofmoney.jpg",
             title: "The Lords of Easy Money",
-            status: 'CURRENTLY READING',
+            status: 'COMPLETE',
             category: 'Education',
             author: 'Christopher Leonard'
         },
