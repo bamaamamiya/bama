@@ -30,7 +30,7 @@ const Skill = () => {
     return (
         <div className="bg-black text-white grid justify-center items-center ">
             <h1 className="text-7xl font-bold text-center ">SKILL</h1>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 m-4 items-center">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 m-4 items-center">
                 {ListSkill.map((skill, index) => (
                     <div key={index} className="flex space-x-2 justify-center items-center border-2 p-2 rounded-xl ">
                         <img src={skill.img} alt={skill.name} className="h-[100px] w-[70px]" />
