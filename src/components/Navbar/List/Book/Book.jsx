@@ -32,7 +32,7 @@ const Book = () => {
             title: "Rich Dad Poor Dad",
             status: 'COMPLETE',
             category: 'Finance',
-            author: 'Robert Kiyosaki and Sharon Lechter'
+            author: 'Robert Kiyosaki'
         },
         {
             imgBook: "/images/book/morgan.jpg",
