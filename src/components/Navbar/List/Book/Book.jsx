@@ -98,6 +98,13 @@ const Book = () => {
             category: 'Education',
             author: 'Christopher Leonard'
         },
+        {
+            imgBook: "/images/book/selfdirected.jpg",
+            title: "The Art of Self-Directed Learning",
+            status: 'COMPLETE',
+            category: 'Education',
+            author: 'Blake Boles'
+        },
     ];
 
     const filteredBooks = BookList.filter(book => {
