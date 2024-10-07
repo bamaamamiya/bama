@@ -105,13 +105,7 @@ const Book = () => {
             category: 'Education',
             author: 'Blake Boles'
         },
-        {
-            imgBook: "/images/book/sciencerich.jpg",
-            title: "The Science of Getting Rich",
-            status: 'CURRENTLY READING',
-            category: 'Business',
-            author: 'Wallace D. Wattles'
-        },
+
     ];
 
     const filteredBooks = BookList.filter(book => {
