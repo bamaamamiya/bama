@@ -105,6 +105,27 @@ const Book = () => {
             category: 'Education',
             author: 'Blake Boles'
         },
+        {
+            imgBook: "/images/book/jekyllisland.jpg",
+            title: "The creature from Jekyll Island",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'G. Edward Griffin'
+        },
+        {
+            imgBook: "/images/book/goggins.jpg",
+            title: "Can't Hurt Me",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'David Goggins'
+        },
+        {
+            imgBook: "/images/book/weekend.jpg",
+            title: "Million Dollar Weekend",
+            status: 'CURRENTLY READING',
+            category: 'Business',
+            author: 'Noah Kagan'
+        },
 
     ];
 
@@ -165,8 +186,8 @@ const Book = () => {
                             <img src={book.imgBook} alt={book.title} className='sm:h-96 w-full rounded-lg' />
                             </div>
 
-                            <div className='grid justify-center items-center'>
-                            <h2 className="text-base sm:text-lg font-bold">{book.title}</h2>
+                            <div className='grid justify-center items-center capitalize'>
+                            <h2 className="text-base sm:text-lg font-bold ">{book.title}</h2>
                             <h3 className="text-sm">{book.author}</h3>
                             <p className="font-extrabold text-xl">{book.status}</p>
                             </div>
