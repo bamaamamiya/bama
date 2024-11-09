@@ -1,23 +1,21 @@
 
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfinity } from "@fortawesome/free-solid-svg-icons";
 
 const Avatar = () => {
     const Name = "Bama Amamiya";
     const Job = "Shadow"
     const Tittle = "Monarch"
-    const HP = "-"
-    const Point = 6
-    const Strength = 9199
-    const Agility = 5200
-    const Sense = 10000
+    const HP = ""
+    const Point = 3
+    const Strength = 51929
+    const Agility = 9200
+    const Sense = 30540
     const Vital = 24833
-    const intel = 928010
+    const intel = 1928010
 
-    const [level, setLevel] = useState(4);
+    const [level, setLevel] = useState(5);
     const [xp, setXp] = useState(960); // XP saat ini
-    const xpNeeded = 1000; // XP yang dibutuhkan untuk level up berikutnya
+    const xpNeeded = 10000; // XP yang dibutuhkan untuk level up berikutnya
 
     // Hitung persentase progress XP
     const progressPercentage = (xp / xpNeeded) * 100;
@@ -25,7 +23,7 @@ const Avatar = () => {
 
     return (
         <div className="md:flex grid justify-center gap-4 p-4 w-max">
-            <div className='p-2'>
+            <div className='p-2 flex items-center'>
                 <img src="/images/bokuanime.jpg" className="rounded-2xl w-80" />
             </div>
             <div className="grid p-4">
@@ -34,7 +32,7 @@ const Avatar = () => {
                     <h1>Job : {Job}</h1>
                     <h1>Tittle : {Tittle}</h1>
                     <h1>HP : {HP}</h1>
-                    <h1 className='text-xl'> <span className='text-2xl'>Level : {level} /</span>  <FontAwesomeIcon icon={faInfinity} /></h1>
+                    <h1 className='text-xl'> <span className='text-2xl'>Level : {level} / 9</span></h1>
 
                     <p className="text-sm text-gray-500 mb-4">XP: {xp} / {xpNeeded}</p>
                     {/* Progress Bar */}
