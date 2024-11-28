@@ -42,16 +42,17 @@ function Navbar() {
           </li>
           {/* <li className='text-end'>
             <Link to='/'>Achievements</Link>
-          </li> */}
+          </li>
           <li className='text-end'>
             <Link to='/inventory'>Inventory</Link>
           </li>
-          {/* <li className='text-end'>
+          <li className='text-end'>
             <Link to='/'>StoryMode</Link>
-          </li> */}
+          </li>
           <li className='text-end'>
             <Link to='/quest'>Quest</Link>
           </li>
+           */}
           <li className='text-end'>
             <Link to='/book'>Book</Link>
           </li>
