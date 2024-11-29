@@ -18,15 +18,13 @@ import StoryMode from './components/Navbar/List/Story Mode/StoryMode';
 import Inventory from './components/Navbar/List/Inventory/Inventory';
 
 // music
-import MusicPlayer from './components/MusicPlayer'
-
+import MusicPlayer from './components/MusicPlayer';
 
 function App() {
-  
   return (
     <div className="h-screen bg-black text-white">
       <Router>
-      <Navbar />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Start />} />
           {/* elemnt bru */}
@@ -41,7 +39,7 @@ function App() {
           <Route path="/footer" element={<Footer />} />
         </Routes>
         <div>
-          <MusicPlayer/>
+          <MusicPlayer />
         </div>
       </Router>
     </div>

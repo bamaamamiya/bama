@@ -1,18 +1,25 @@
-import React from "react"
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faMasksTheater, faUser, faPlugCircleXmark } from "@fortawesome/free-solid-svg-icons";
-import Status from "./Status/Status";
-import Mess from "./Quo/Mess";
-import Footer from "../Footer/Footer";
-
+import {
+  faCode,
+  faMasksTheater,
+  faUser,
+  faPlugCircleXmark,
+} from '@fortawesome/free-solid-svg-icons';
+import Status from './Status/Status';
+import Mess from './Quo/Mess';
+import Footer from '../Footer/Footer';
 
 const Profile = () => {
-
   return (
     <div>
       <div className="md:flex grid justify-center items-center gap-2 h-screen p-4">
         <div className="flex justify-center items-center p-2 ">
-          <img src="./images/profile.jpg" alt="Profil" className="sm:w-80 rounded-full flex justify-center border-white border-4" />
+          <img
+            src="./images/profile.jpg"
+            alt="Profil"
+            className="sm:w-80 rounded-full flex justify-center border-white border-4"
+          />
         </div>
         <div className="flex justify-center items-center">
           <div>
@@ -42,8 +49,7 @@ const Profile = () => {
         <Footer />
       </div>
     </div>
+  );
+};
 
-  )
-}
-
-export default Profile
+export default Profile;
