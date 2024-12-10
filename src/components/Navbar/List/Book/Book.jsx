@@ -150,7 +150,7 @@ const Book = () => {
             <div className='grid justify-center items-center'>
                 {/* Dropdown Filters */}
                 <div className="text-center space-y-2 space-x-2 ">
-                    <select
+                    {/* <select
                         value={filter}
                         onChange={(e) => setFilter(e.target.value)}
                         className=" p-2 rounded-md font-bold border-2 border-r-4 border-b-4 bg-black text-white"
@@ -158,7 +158,7 @@ const Book = () => {
                         <option value="ALL">All Status</option>
                         <option value="COMPLETE">Completed</option>
                         <option value="CURRENTLY READING">Currently Reading</option>
-                    </select>
+                    </select> */}
 
                     <select
                         value={category}
@@ -172,11 +172,11 @@ const Book = () => {
                         <option value="Education">Education</option>
                     </select>
 
-                    <div className='flex justify-center items-center gap-4'>
+                    {/* <div className='flex justify-center items-center gap-4'>
                         <p className='text-xl text-center'>Total Books: {allBooks} </p>
                         <p className='text-xl text-center'>Completed Books: {completedBooks} </p>
                         <p className='text-xl text-center'>Currently Reading: {currentlyBooks} </p>
-                    </div>
+                    </div> */}
                 </div>
                 {/* Dropdown Filters */}
                 <div className='grid justify-center text-center gap-2 m-4 md:grid md:grid-cols-2 lg:grid-cols-3 grid-cols-2'>
@@ -189,7 +189,7 @@ const Book = () => {
                             <div className='grid justify-center items-center capitalize'>
                             <h2 className="text-base sm:text-lg font-bold ">{book.title}</h2>
                             <h3 className="text-sm">{book.author}</h3>
-                            <p className="font-extrabold text-xl">{book.status}</p>
+                            {/* <p className="font-extrabold text-xl">{book.status}</p> */}
                             </div>
                         </div>
                     ))}

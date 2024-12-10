@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCirclePlay , faCirclePause} from "@fortawesome/free-solid-svg-icons";
+import { faCirclePlay, faCirclePause } from '@fortawesome/free-solid-svg-icons';
 
 const MusicPlayer = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -18,7 +18,11 @@ const MusicPlayer = () => {
     return (
         <div>
             {/* Elemen audio untuk memuat musik */}
-            <audio ref={audioRef} src="/audio/Beneath the Mask.mp3" loop></audio>
+            <audio
+                ref={audioRef}
+                src="/audio/Beneath the Mask.mp3"
+                loop
+            ></audio>
 
             {/* Tombol Play/Pause dengan Tailwind CSS */}
             <button
@@ -34,7 +38,11 @@ const MusicPlayer = () => {
                 shadow-lg 
                 z-50"
             >
-                {isPlaying ? <FontAwesomeIcon icon={faCirclePause} size='2x'/>  : <FontAwesomeIcon icon={faCirclePlay} size='2x'/> }
+                {isPlaying ? (
+                    <FontAwesomeIcon icon={faCirclePause} size="2x" />
+                ) : (
+                    <FontAwesomeIcon icon={faCirclePlay} size="2x" />
+                )}
             </button>
         </div>
     );
