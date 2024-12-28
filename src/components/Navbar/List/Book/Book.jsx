@@ -126,6 +126,13 @@ const Book = () => {
             category: 'Business',
             author: 'Noah Kagan'
         },
+        {
+            imgBook: "/images/book/seduction.jpg",
+            title: "The Art of Seduction",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'Robert Greene'
+        },
 
     ];
 
