@@ -119,16 +119,23 @@ const Book = () => {
             category: 'Education',
             author: 'David Goggins'
         },
-        {
-            imgBook: "/images/book/weekend.jpg",
-            title: "Million Dollar Weekend",
-            status: 'CURRENTLY READING',
-            category: 'Business',
-            author: 'Noah Kagan'
-        },
+        // {
+        //     imgBook: "/images/book/weekend.jpg",
+        //     title: "Million Dollar Weekend",
+        //     status: 'CURRENTLY READING',
+        //     category: 'Business',
+        //     author: 'Noah Kagan'
+        // },
         {
             imgBook: "/images/book/seduction.jpg",
             title: "The Art of Seduction",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'Robert Greene'
+        },
+        {
+            imgBook: "/images/book/mastery.jpg",
+            title: "Mastery",
             status: 'CURRENTLY READING',
             category: 'Education',
             author: 'Robert Greene'
@@ -179,11 +186,11 @@ const Book = () => {
                         <option value="Education">Education</option>
                     </select>
 
-                    {/* <div className='flex justify-center items-center gap-4'>
+                    <div className='flex justify-center items-center gap-4'>
                         <p className='text-xl text-center'>Total Books: {allBooks} </p>
-                        <p className='text-xl text-center'>Completed Books: {completedBooks} </p>
-                        <p className='text-xl text-center'>Currently Reading: {currentlyBooks} </p>
-                    </div> */}
+                        {/* <p className='text-xl text-center'>Completed Books: {completedBooks} </p>
+                        <p className='text-xl text-center'>Currently Reading: {currentlyBooks} </p> */}
+                    </div>
                 </div>
                 {/* Dropdown Filters */}
                 <div className='grid justify-center text-center gap-2 m-4 md:grid md:grid-cols-2 lg:grid-cols-3 grid-cols-2'>
