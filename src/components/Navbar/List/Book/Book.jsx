@@ -140,6 +140,27 @@ const Book = () => {
             category: 'Education',
             author: 'Robert Greene'
         },
+        {
+            imgBook: "/images/book/Influence.jpg",
+            title: "Influence: The Psychology of Persuasion",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'Robert B.CIALDINI , PH.D'
+        },
+        {
+            imgBook: "/images/book/scientific.jpg",
+            title: "Scientific Advertising",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'Claude C.Hopkins'
+        },
+        {
+            imgBook: "/images/book/blue.jpg",
+            title: "Blue Ocean Strategy",
+            status: 'CURRENTLY READING',
+            category: 'Education',
+            author: 'W. Chan Kim & Renée Mauborgne'
+        },
 
     ];
 
@@ -179,6 +200,7 @@ const Book = () => {
                         onChange={(e) => setCategory(e.target.value)}
                         className=" p-2 rounded-md font-bold border-2 border-r-4 border-b-4 bg-black text-white "
                     >
+                        
                         <option value="ALL">All Categories</option>
                         <option value="Self-Development">Self-Development</option>
                         <option value="Finance">Finance</option>
