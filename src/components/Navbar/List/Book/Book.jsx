@@ -78,6 +78,13 @@ const Book = () => {
             author: 'Alex Hormozi'
         },
         {
+            imgBook: "/images/book/leads.jpg",
+            title: "$100M Leads",
+            status: 'COMPLETE',
+            category: 'Business',
+            author: 'Alex Hormozi'
+        },
+        {
             imgBook: "/images/book/fastline.jpg",
             title: "The Millionaire Fastlane",
             status: 'COMPLETE',
@@ -119,13 +126,6 @@ const Book = () => {
             category: 'Education',
             author: 'David Goggins'
         },
-        // {
-        //     imgBook: "/images/book/weekend.jpg",
-        //     title: "Million Dollar Weekend",
-        //     status: 'CURRENTLY READING',
-        //     category: 'Business',
-        //     author: 'Noah Kagan'
-        // },
         {
             imgBook: "/images/book/seduction.jpg",
             title: "The Art of Seduction",
