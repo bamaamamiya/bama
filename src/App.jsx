@@ -2,23 +2,23 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // first page
-import Start from './components/Start/Start';
-import Profil from './components/MainContent/Profile';
+import Start from './Pages/Start/Start';
+import Profil from './Pages/MainContent/Profile';
 
 // navbar
-import Navbar from './components/Navbar/Navbar';
-import Player from './components/Navbar/List/Player/Player';
-import Quest from './components/Navbar/List/Quest/Quest';
-import Book from './components/Navbar/List/Book/Book';
+import Navbar from './Pages/Navbar/Navbar';
+import Player from './Pages/Navbar/List/Player/Player';
+import Quest from './Pages/Navbar/List/Quest/Quest';
+import Book from './Pages/Navbar/List/Book/Book';
 
 // footer
-import Footer from './components/Footer/Footer';
-import Achievements from './components/Navbar/List/Achievements/Achievements';
-import StoryMode from './components/Navbar/List/Story Mode/StoryMode';
-import Inventory from './components/Navbar/List/Inventory/Inventory';
+import Footer from './Pages/Footer/Footer';
+import Achievements from './Pages/Navbar/List/Achievements/Achievements';
+import StoryMode from './Pages/Navbar/List/Story Mode/StoryMode';
+import Inventory from './Pages/Navbar/List/Inventory/Inventory';
 
 // music
-import MusicPlayer from './components/MusicPlayer';
+import MusicPlayer from './Pages/MusicPlayer';
 
 function App() {
   return (
