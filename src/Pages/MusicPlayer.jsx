@@ -15,6 +15,11 @@ const MusicPlayer = () => {
         setIsPlaying(!isPlaying);
     };
 
+    const playSound = () => {
+        const audio = new Audio('/audio/Select Sound Effect.mp3');
+        audio.play();
+      };
+
     return (
         <div>
             {/* Elemen audio untuk memuat musik */}
@@ -26,6 +31,7 @@ const MusicPlayer = () => {
 
             {/* Tombol Play/Pause dengan Tailwind CSS */}
             <button
+                onMouseEnter={playSound}
                 onClick={togglePlayPause}
                 className="
                 fixed
