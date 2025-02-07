@@ -71,7 +71,7 @@ const Skill = () => {
                 ))}
             </div> */}
 
-      <div className="md:flex grid grid-cols-2 justify-center overflow-x-hidden gap-2 p-4" >
+      <div className="md:flex grid  justify-center overflow-x-hidden gap-2 p-4" >
         {cardData.map((card, index) => (
           <Card
             key={index}

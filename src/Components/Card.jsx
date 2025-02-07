@@ -4,7 +4,7 @@ const Card = ({ title, description, image , sound}) => {
     audio.play();
   };
   return (
-    <div className="md:w-60 w-40 h-autospace-y-2 border-2 p-6 rounded-2xl hover:scale-90 hover:border-r-4 hover:border-b-8  "
+    <div className="md:w-60  h-autospace-y-2 border-2 p-6 rounded-2xl hover:scale-90 hover:border-r-4 hover:border-b-8  "
     onMouseEnter={playSound}>
       <div className="flex">
         <img
