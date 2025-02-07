@@ -69,10 +69,10 @@ function Navbar() {
                 }`}
             >
                 <ul className="sm:flex sm:gap-4 sm:ml-auto border-b-2 border-t-2 md:border-none text-2xl">
-                    <li className="text-end hover:scale-125" onMouseEnter={playSound}>
+                    <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
                         <Link to="/home">Home</Link>
                     </li>
-                    <li className="text-end hover:scale-125" onMouseEnter={playSound}>
+                    <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
                         <Link to="/player">Player</Link>
                     </li>
                     {/* <li className='text-end'>
@@ -84,11 +84,11 @@ function Navbar() {
           <li className='text-end'>
             <Link to='/'>StoryMode</Link>
           </li> */}
-          <li className='text-end hover:scale-125'  onMouseEnter={playSound}>
+          <li className='text-end lg:hover:scale-125'  onMouseEnter={playSound}>
             <Link to='/quest'>Quest</Link>
           </li>
           
-                    <li className="text-end hover:scale-125" onMouseEnter={playSound}>
+                    <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
                         <Link to="/book">Book</Link>
                     </li>
                 </ul>
