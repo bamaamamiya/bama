@@ -161,6 +161,13 @@ const Book = () => {
             category: 'Education',
             author: 'W. Chan Kim & Renée Mauborgne'
         },
+				{
+					imgBook: "/images/book/prince.jpg",
+					title: "The Prince",
+					status: 'CURRENTLY READING',
+					category: 'Self-Development',
+					author: 'Machiavelli'
+			},
 
     ];
 

@@ -22,7 +22,7 @@ const Quest =() =>{
     return(
         <div className="grid justify-center items-center">
 
-        <div className=" border-2 md:w-96  h-full rounded-xl p-2 grid items-center">
+        <div className="m-4 border-2 md:w-96  h-full rounded-xl p-2 grid items-center">
         <div className="flex justify-end gap-2 ">
         <h1 className="text-end text-5xl">_</h1>
         <h1 className="text-end text-5xl">x</h1>
