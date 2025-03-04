@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="h-screen bg-black text-white">
       <Router>
-        <Navbar />
+				<Navbar/>
         <Routes>
           <Route path="/" element={<Start />} />
           {/* elemnt bru */}
