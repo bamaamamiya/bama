@@ -19,6 +19,7 @@ import Inventory from './Pages/Navbar/List/Inventory/Inventory';
 
 // music
 import MusicPlayer from './Pages/MusicPlayer';
+import Game from './Pages/Navbar/List/Game/Game';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/quest" element={<Quest />} />
           <Route path="/player" element={<Player />} />
           <Route path="/book" element={<Book />} />
+          <Route path="/game" element={<Game />} />
           <Route path="/footer" element={<Footer />} />
         </Routes>
         <div>

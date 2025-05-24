@@ -14,7 +14,7 @@ const Card = ({ title, description, image , sound}) => {
         />
       </div>
       <div>
-      <div className="font-bold text-xl mb-2 text-white">{title}</div>
+      <div className="font-bold text-xl mb-2 text-white capitalize">{title}</div>
         <p className="md:text-justify">
           {description}
         </p>

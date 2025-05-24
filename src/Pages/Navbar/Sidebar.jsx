@@ -20,6 +20,9 @@ function Sidebar() {
           <Link to="/player">Quest</Link>
         </li>
         <li className="lg:hover:scale-125 text-white/50 hover:text-white" onMouseEnter={playSound}>
+          <Link to="/game">Game</Link>
+        </li>
+        <li className="lg:hover:scale-125 text-white/50 hover:text-white" onMouseEnter={playSound}>
           <Link to="/player">Book</Link>
         </li>
       </ul>
