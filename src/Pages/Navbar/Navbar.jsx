@@ -80,13 +80,13 @@ function Navbar() {
           <li className='text-end'>
             <Link to='/'>StoryMode</Link>
           </li> */}
-          <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
+          {/* <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
             <Link to="/quest">Quest</Link>
-          </li>
+          </li> */}
 
-          <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
+          {/* <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
             <Link to="/Game">Game</Link>
-          </li>
+          </li> */}
 
           <li className="text-end lg:hover:scale-125" onMouseEnter={playSound}>
             <Link to="/book">Book</Link>
